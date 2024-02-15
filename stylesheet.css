@@ -16,10 +16,13 @@ header {
     align-items: center;
     padding-inline: 10vw;
     background-color: #1f2937;
+    min-height: 5vh;
 }
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 a,
@@ -37,7 +40,7 @@ a:hover {
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -50,4 +53,65 @@ footer {
     padding: 10px 0 10px 0;
     font-size: 16px;
     color: #e5e7eb;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10vh 0;
+}
+
+.container-hero > div {
+    width: 40vw;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    font-size: 16px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 1% 5%;
+    border-radius: 0.5em;
+    border-style: none;
+}
+.hero-image > img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 16px 0;
+}
+
+.info-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
