@@ -28,3 +28,8 @@ Landing page CSS project from website The Odin Project
     1. Completed Information Section with Images.
     2. Adjusted Hero section content.
     3. Started Working on Quote Section.
+
+# Seventh Commit from Odin Landing
+
+    1. Completed Quote Section.
+

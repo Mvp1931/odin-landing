@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px rgb(219, 17, 11) solid;
-} */
+}
 
 body {
     margin: 0;
@@ -104,7 +104,7 @@ button {
     justify-content: space-between;
     align-items: center;
     background-color: #f9faf8;
-    padding: 5vh 0;
+    padding: 10vh 0 15vh 0;
 }
 
 .info-header {
@@ -140,4 +140,29 @@ button {
     color: #232323;
     text-align: center;
     margin: 1vh 0 0 0;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 15vh 20vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    align-self: flex-end;
+    margin-top: 1vh;
 }
