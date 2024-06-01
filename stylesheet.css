@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px rgb(219, 17, 11) solid;
-}
+} */
 
 body {
     margin: 0;
@@ -50,7 +50,7 @@ footer {
     background-color: #1f2937;
     text-align: center;
     vertical-align: middle;
-    padding: 10px 0 10px 0;
+    padding: 2.5vh 0;
     font-size: 16px;
     color: #e5e7eb;
 }
@@ -87,6 +87,7 @@ button {
     padding: 1% 5%;
     border-radius: 0.5em;
     border-style: none;
+    outline: #e5e7eb solid 2px;
 }
 .hero-image > img {
     object-fit: cover;
@@ -97,6 +98,7 @@ button {
     background-size: contain;
     vertical-align: middle;
     border-radius: 1.5em;
+    outline: #e5e7eb solid 5px;
 }
 .container-info {
     display: flex;
@@ -165,4 +167,34 @@ button {
     color: #1f2937;
     align-self: flex-end;
     margin-top: 1vh;
+}
+
+.container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    padding: 10vh 15vw;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 0.75em;
+    width: 80vw;
+    padding: 5vh 10vw;
+}
+
+.signup-header {
+    font-size: 20x;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.signup-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: -2vh;
 }

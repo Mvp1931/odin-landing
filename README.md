@@ -33,3 +33,8 @@ Landing page CSS project from website The Odin Project
 
     1. Completed Quote Section.
 
+# Eighth Commit from Odin Landing
+
+    1. Completed Sign Up Section.
+    2. modified Footer.
+    3. Completed CSS Landing Page.
